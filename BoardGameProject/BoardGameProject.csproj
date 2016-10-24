@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1ED236C9-2153-4081-95AB-BA7E31ECE21C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BoardGameProject</RootNamespace>
+    <AssemblyName>BoardGameProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="axinterop.wmplib">
+      <HintPath>.\axinterop.wmplib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.WMPLib">
+      <HintPath>.\Interop.WMPLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Board.cs" />
+    <Compile Include="BoardGame.cs" />
+    <Compile Include="Computer.cs" />
+    <Compile Include="Games\Checkers\Checkers.cs" />
+    <Compile Include="Games\Checkers\CheckersUnit.cs" />
+    <Compile Include="Games\Chess\BishopUnit.cs" />
+    <Compile Include="Games\Chess\Chess.cs" />
+    <Compile Include="Games\Chess\ChessUnit.cs" />
+    <Compile Include="Games\Chess\KingUnit.cs" />
+    <Compile Include="Games\Chess\KnightUnit.cs" />
+    <Compile Include="Games\Chess\PawnUnit.cs" />
+    <Compile Include="Games\Chess\QueenUnit.cs" />
+    <Compile Include="Games\Chess\RockUnit.cs" />
+    <Compile Include="Games\Connect4\Connect4.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Games\Connect4\Connect4Strategy.cs" />
+    <Compile Include="Games\Connect4\Connect4unit.cs" />
+    <Compile Include="Games\Reversi\ReversiStrategy.cs" />
+    <Compile Include="Games\Reversi\Reversiunit.cs" />
+    <Compile Include="Games\Strategy.cs" />
+    <Compile Include="Games\XO\XOStrategy.cs" />
+    <Compile Include="Games\XO\XOunit.cs" />
+    <Compile Include="GUI\Drawer.cs" />
+    <Compile Include="GUI\Forms\gameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\gameForm.Designer.cs">
+      <DependentUpon>gameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI.cs" />
+    <Compile Include="GUI\Forms\Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Main_Menu.Designer.cs">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Sound.cs" />
+    <Compile Include="Human.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="GUI\Forms\PlayerSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\PlayerSelect.Designer.cs">
+      <DependentUpon>PlayerSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\PlayerMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\PlayerMode.Designer.cs">
+      <DependentUpon>PlayerMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Games\Reversi\Reversi.cs" />
+    <Compile Include="GUI\Forms\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tenno InterFaces\TennoC4.cs" />
+    <Compile Include="Tenno InterFaces\TennoCheckers.cs" />
+    <Compile Include="Tenno InterFaces\TennoChess.cs" />
+    <Compile Include="Tenno InterFaces\TennoReversi.cs" />
+    <Compile Include="Tenno InterFaces\TennoXO.cs" />
+    <Compile Include="Timers.cs" />
+    <Compile Include="Unit.cs" />
+    <Compile Include="Games\XO\XO.cs" />
+    <EmbeddedResource Include="GUI\Forms\gameForm.resx">
+      <DependentUpon>gameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Main_Menu.resx">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\PlayerSelect.resx">
+      <DependentUpon>PlayerSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\PlayerMode.resx">
+      <DependentUpon>PlayerMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back_shade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Board_C4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Board_XO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Edit Player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Main Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_New game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_New Player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_pause_game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Rotait_screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin_black_king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin_red_king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\counter panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_btn_Checkers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_btn_Chess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_btn_Connect 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_btn_reversi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_btn_XO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 101 .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_PC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List_History.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List_Players.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_c4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_xo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_selector_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_selector_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image-gnome-gnect.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Edit_player_name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Board_c4_cell_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chess_board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChessBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChessWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RED.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UNIT_BACK_C4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XO_Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BishopB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BishopW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KingB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KingW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnightB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnightW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PawnB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PawnW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuenB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuenW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RookB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RookW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPlayinMood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_player.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_players.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_looked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player_mode_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Player_mode_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chess_looked2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoMusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoSoundEffects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundEffects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackSK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteSK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YellowB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin_XO_O.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin_Xo_X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkers_looked2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reversi_looked2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

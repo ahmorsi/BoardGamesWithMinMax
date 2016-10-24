@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BoardGameProject.Board" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAABAAAAABEAAAAAAAAEAAAACACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.BoardGame" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAAEAAAAAAAAAAABEBAAAAACAAAACBACgAACIQA=</HashCode>
+      <FileName>BoardGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Computer" Collapsed="true">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Game" Collapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAAAAAQJAAAAAABAAAAAgAAAQQAkEgBAAQgA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Checkers" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACAgEAIAAAAACwAgAAAAAAAAAAAAAARAFQAKUQAI=</HashCode>
+      <FileName>Games\Checkers\Checkers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.CheckersUnit">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAgAAAAAAABAIAAAIAAAAAAMAAAAABAgAAhAAAA=</HashCode>
+      <FileName>Games\Checkers\CheckersUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.BishopUnit" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Chess\BishopUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Chess" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgQAmAIAAAAiCAAAAAGAAAACJAAAAYxAAQAAIQAI=</HashCode>
+      <FileName>Games\Chess\Chess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.ChessUnit" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEQAAAAAAAAAAAAAAAAABAAEAABAAAA=</HashCode>
+      <FileName>Games\Chess\ChessUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.KingUnit" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Chess\KingUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.KnightUnit" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Chess\KnightUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.PawnUnit" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Chess\PawnUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.QueenUnit" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Chess\QueenUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.RockUnit" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Chess\RockUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Connect4" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAEAAAAAAASgAABEAAAAAAAAAAAABAAAAEAARA=</HashCode>
+      <FileName>Games\Connect4\Connect4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Connect4Strategy" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAEAQAAAEAAAAAAAAABEAAAAEAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Games\Connect4\Connect4Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Connect4unit">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Connect4\Connect4unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Reversi" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CUAAEAAEAAAAEAACgAAAAAAAQAAAAAAAABAEQAMYYxI=</HashCode>
+      <FileName>Games\Reversi\Reversi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.ReversiStrategy" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEEQAAAEAAAAAAAAAAAAQAQEAAAAAAAAAAAAIEAgI=</HashCode>
+      <FileName>Games\Reversi\ReversiStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Reversiunit">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\Reversi\Reversiunit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Strategy" Collapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAQAAAFAAAAAAAAIEAAAAAAEAAgAAAEAAABAEAAA=</HashCode>
+      <FileName>Games\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.XOBoardGame" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAEAAAAAAACgAAAAABAAAAAAAAAABAAAEgASBA=</HashCode>
+      <FileName>Games\XO\XO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.XOStrategy" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAEAQAAAEAAAAAAAAAAAAAAAAAAAAAASAAAAAAEAAA=</HashCode>
+      <FileName>Games\XO\XOStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.XOunit">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Games\XO\XOunit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Drawer" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACACAAAAFAAAAAAAkAAAAECAAAEAEAACAAAAAk=</HashCode>
+      <FileName>GUI\Drawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.gameForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>owAA6AFFICkCgigEBKLIMgA6E0GIiQJIoAqAAcrSsAk=</HashCode>
+      <FileName>GUI\Forms\gameForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BoardGameProject.Main_Menu" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEAYCgEAACAAAQAAAACAAAQCAQQhAAAIACAQBAAEAAA=</HashCode>
+      <FileName>GUI\Forms\Main_Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.PlayerMode" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAAICAAABCAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>GUI\Forms\PlayerMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.PlayerSelect" Collapsed="true">
+    <Position X="29.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAkAAACAggQECAAKRACACwBAigBAAgAACAEJCIgg=</HashCode>
+      <FileName>GUI\Forms\PlayerSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Splash" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAACAAAACAAAAIAAAAABAAAAAAAA=</HashCode>
+      <FileName>GUI\Forms\Splash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.GUI" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAAAABAAAAAIAAIgAAAAAABAEBAEAAAAAAIA=</HashCode>
+      <FileName>GUI\GUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Sound" Collapsed="true">
+    <Position X="29.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABIkAAIAQAIQAIAAQgAAAFAIABAQEAAAAAAAA=</HashCode>
+      <FileName>GUI\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Human" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Player" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAgAAAAEAAAAAAQAACAAAABACAAEAgAAAAE=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Program" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Timers" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAFAAAAAAAAAAAAAAAIAAEIAAAAAAAAAA=</HashCode>
+      <FileName>Timers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Unit" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAJAgAAAIAAAAAAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Properties.Resources" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JYwMZNkigkiEQAQmlBgBFACKPQKxbRqwAKAAAgBCIIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGameProject.Properties.Settings" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BoardGameProject.TennoC4" Collapsed="true">
+    <Position X="24" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAABAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Tenno InterFaces\TennoC4.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardGameProject.TennoCheckers" Collapsed="true">
+    <Position X="25.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAABAAAAAgAAAAAAAAAAAAGIAABIAAAAAAAAAAA=</HashCode>
+      <FileName>Tenno InterFaces\TennoCheckers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardGameProject.TennoChess" Collapsed="true">
+    <Position X="27.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAABAAAAAAgAAAAAAAAQAUAIAAAAAACAAAAAEAA=</HashCode>
+      <FileName>Tenno InterFaces\TennoChess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardGameProject.TennoReversi" Collapsed="true">
+    <Position X="29.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tenno InterFaces\TennoReversi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BoardGameProject.TennoXO" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAgAIAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Tenno InterFaces\TennoXO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
